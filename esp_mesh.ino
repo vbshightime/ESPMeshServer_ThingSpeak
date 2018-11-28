@@ -181,30 +181,8 @@ void taskOnBroadcast(){
       Serial.println("Correct");
     }
   Serial.println("WiFi callback started");
-    /*client.setClient(wifiClient);
-      //client connects to server 
-     client.setServer(mqtt_server,1883);
-  client.connect("ESP8266Client123456789");
-  client.subscribe("TempRoom1");
-    client.subscribe("HumidRoom1");
-  client.subscribe("TempRoom2");
-    client.subscribe("HumidRoom2");
-  //while(millis()-startTimer<= startInterval){
-    
-    if(!client.connected()){
-      Serial.println("client not connected");
-      return;
-      }
-      Serial.println("client connected");
-     client.publish("TempRoom1",String(valueTemp).c_str());
-     client.publish("HumidRoom1",String(valueHumid).c_str());  
-     client.publish("TempRoom2",String(valueTemp1).c_str());
-     client.publish("HumidRoom2",String(valueHumid1).c_str());  
-     client.loop();*/
-
-     
-  //}    
-    if(wifiClient.connect(hostId,80)){
+      
+  if(wifiClient.connect(hostId,80)){
             String postStr = apiKey;
             postStr +="&field1=";
             postStr += String(valueTemp);
