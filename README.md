@@ -47,7 +47,27 @@ On the client side, We are getting temperature and humidity values from DHT 11 a
 
 ## Usage
 
-# Coming Soon
+Before proceding to our mesh we need to save the user credentials. For this purpose we are hosting a web server at 192.169.1.4. Once the device starts it hosts a web server for 60 secs. The user should follow these steps.
+    
+
+ - Connect to the AP ESPuser, This is listed in your available wifi network list. Connect to this AP and enter password 24041990 
+ - Once it gets connected, Go to your browser enter the the IP 192.168.1.4. 
+
+    ![alt text](https://github.com/vbshightime/ESPMeshServer_ThingSpeak/blob/master/Capture8.PNG "Title")
+  
+ - Enter the ssid and password of your local WiFi in the input fields and enter SUBMIT
+ 
+ - These credential will be saved in EEPROM
+ 
+    ![alt text](https://github.com/vbshightime/ESPMeshServer_ThingSpeak/blob/master/Capture7.PNG "Title")
+ 
+ 
+ - After 60 sec Device will automaticaly disconnect from AP 
+ 
+ - Next time when you turn on the device, The user doesn't have to follow this procedure, The device will automaticaly fetch the user      credentials from EEPROM and continue with getting the sensor readings from mesh and posting it to cloud
+ 
+    ![alt text](https://github.com/vbshightime/ESPMeshServer_ThingSpeak/blob/master/Capture6.PNG "Title")
+
 
 ## Profile
 
