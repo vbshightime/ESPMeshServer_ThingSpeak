@@ -53,7 +53,7 @@ Before proceding to our mesh we need to save the user credentials. For this purp
  - Connect to the AP ESPuser, This is listed in your available wifi network list. Connect to this AP and enter password 24041990 
  - Once it gets connected, Go to your browser enter the the IP 192.168.1.4. 
 
-    ![alt text](https://github.com/vbshightime/ESPMeshServer_ThingSpeak/blob/master/Capture8.PNG "Title")
+    ![alt text](https://github.com/vbshightime/ESPMeshServer_ThingSpeak/blob/master/WebPage.png "Title")
   
  - Enter the ssid and password of your local WiFi in the input fields and enter SUBMIT
  
