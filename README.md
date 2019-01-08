@@ -34,6 +34,8 @@ We have created a Mesh network or a star network. Our architecture consists of t
  - On the server end, We areparsing the JSON values and getting the temperature and humidity values out of it
  - These values are then sent to cloud
  - We are using Thing Speak API upload our payload to Cloud for this operation
+ - We have also done this using NodeRed MQTT 
+ - pubSubClient is used to subscribe to the particular topic and publishing the values to that topic created by MQTTBroker 
  - ThingSpeak is a free web service that lets you develop IoT applications. The ThingSpeak web service provides apps that let you analyze and visualize your data in MATLAB 
  - So in this way we are sendin the values to cloud
  - For this purpose we are using TaskScheduler to schedule the task. This task will send the serverId to respective clients and publish the values to mqtt broker. We are running this task for 20sec. This task will perform N number of iteration in the span of 20 seconds.
