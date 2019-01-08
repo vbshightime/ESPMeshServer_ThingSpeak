@@ -1,4 +1,4 @@
-# ESPMeshServerusing ThingSpeak API
+# ESP MeshServer using MQTT API
 ## Mesh Network
 
 A mesh network (or simply Meshnet) is a local network topology in which the infrastructure nodes (i.e. bridges, switches and other infrastructure devices) connect directly, dynamically and non-hierarchically to as many other nodes as possible and cooperate with one another to efficiently route data from/to clients. Mesh networks dynamically self-organize and self-configurable. Mesh networks can relay messages using either a flooding technique or a routing technique. With routing, the message is propagated along a path by hopping from node to node until it reaches its destination.
